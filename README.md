@@ -29,8 +29,7 @@ Aplicación web modular construida con PHP 8.3, basada en el patrón **Modelo-Vi
 ├── views/            # Vistas del sistema
 ├── components/       # Fragmentos reutilizables (navbar, etc.)
 ├── index.php         # Punto de entrada (Front Controller)
-├── create_user.php   # Script para crear usuarios manualmente
-├── .env              # Variables de entorno (no subir a Git)
+├── .env              # Variables de entorno
 ├── .env.example      # Plantilla base para `.env`
 ├── composer.json     # Dependencias del proyecto
 └── vendor/           # Librerías Composer (ignorado por Git)
@@ -97,14 +96,6 @@ CREATE TABLE users (
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 ```
-
-5. **Crea un usuario con:**
-
-```bash
-php create_user.php
-```
-
----
 
 ### 🔐 Seguridad aplicada
 

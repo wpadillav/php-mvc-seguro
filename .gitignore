@@ -5,6 +5,9 @@
 # Ignorar dependencias instaladas con Composer
 /vendor/
 
+# creador de usuarios manuales
+create_user.php
+
 # Ignorar archivos temporales o de caché
 *.log
 *.cache
