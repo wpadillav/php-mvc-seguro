@@ -149,7 +149,7 @@ php -S localhost:8000
 
 ### 👤 Autor
 
-* **Wilmer Padilla**
+* **William Padilla**
 * GitHub: [@wpadillav](https://github.com/wpadillav)
 * Contacto: [willipadilla@proton.me](mailto:willipadilla@proton.me)
 
