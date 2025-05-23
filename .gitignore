@@ -1,0 +1,41 @@
+# Ignorar archivos de entorno y configuraciones sensibles
+.env
+.env.*  # versiones alternativas (por ejemplo, .env.production)
+
+# Ignorar dependencias instaladas con Composer
+/vendor/
+
+# Ignorar archivos temporales o de caché
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones de entorno de desarrollo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignorar sesiones u otros archivos de ejecución
+sessions/
+cache/
+storage/
+
+# Ignorar archivos subidos por usuarios, si aplica
+uploads/
+files/
+
+# Ignorar backups
+*.sql
+*.zip
+*.tar.gz
+
+# Ignorar cobertura de pruebas (si usas PHPUnit)
+coverage/
+
+# Ignorar indexación de directorios
+.htaccess
