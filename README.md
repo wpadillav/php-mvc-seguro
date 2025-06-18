@@ -97,7 +97,13 @@ CREATE TABLE users (
 );
 
 INSERT INTO users (username, password_hash, salt) VALUES ('demo_user1', '283dfa5977c8cfe8c881405e33f576d5', 'c8ad2a055b0067efd43c1eb873606bb06f16b548531b970c771b1aab4172f038');
+```
 
+**Datos de Acceso**
+
+```
+Usuario: demo_user
+Password: demo_password123
 ```
 
 ### 🔐 Seguridad aplicada
