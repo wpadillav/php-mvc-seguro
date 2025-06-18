@@ -9,6 +9,9 @@
                 <a class="nav-link" href="/?controller=Dashboard&action=index">Dashboard</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="/?controller=UserAdmin&action=index">UserAdmin</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="/?controller=Tools&action=index">Tools</a>
             </li>
             <li class="nav-item">

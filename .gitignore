@@ -2,6 +2,9 @@
 .env
 .env.*  # versiones alternativas (por ejemplo, .env.production)
 
+# Se ignora archivo para crear usuarios manualmente
+crear.php
+
 # Ignorar dependencias instaladas con Composer
 /vendor/
 
